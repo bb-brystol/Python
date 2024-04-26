@@ -1,0 +1,6 @@
+def sort_dict_by_key(input_dict):
+    return dict(sorted(input_dict.items()))
+sample_dict = {'b': 2, 'a': 1, 'c': 3}
+sorted_dict = sort_dict_by_key(sample_dict)
+print("Original dictionary:", sample_dict)
+print("Dictionary sorted by key:", sorted_dict)

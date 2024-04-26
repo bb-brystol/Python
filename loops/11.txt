@@ -1,0 +1,6 @@
+def generate_2d_array(m, n):
+    return [[i*j for j in range(n)] for i in range(m)]
+rows = 3
+columns = 4
+result = generate_2d_array(rows, columns)
+print("Generated 2D array:", result)

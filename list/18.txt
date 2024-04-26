@@ -1,0 +1,6 @@
+from itertools import permutations
+
+def generate_permutations(input_list):
+    return list(permutations(input_list))
+my_list = [1, 2, 3]
+print("Permutations of", my_list, ":", generate_permutations(my_list))

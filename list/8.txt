@@ -1,0 +1,9 @@
+def is_list_empty(input_list):
+    if input_list:
+        return False
+    else:
+        return True
+empty_list = []
+non_empty_list = [1, 2, 3]
+print("Is the empty list empty?", is_list_empty(empty_list))
+print("Is the non-empty list empty?", is_list_empty(non_empty_list))

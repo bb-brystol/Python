@@ -1,0 +1,8 @@
+def swap_and_concat(str1, str2):
+    swapped_str1 = str2[:2] + str1[2:]
+    swapped_str2 = str1[:2] + str2[2:]
+    return swapped_str1 + ' ' + swapped_str2
+
+input_str1 = input("Enter string 1")
+input_str2 = input("Enter string 2")
+print(swap_and_concat(input_str1, input_str2))

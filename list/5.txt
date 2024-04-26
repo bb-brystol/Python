@@ -1,0 +1,9 @@
+def count_strings(input_list):
+    count = 0
+    for string in input_list:
+        if len(string) >= 2 and string[0] == string[-1]:
+            count += 1
+    return count
+sample_list = ['abc', 'xyz', 'aba', '1221']
+print("Sample List:", sample_list)
+print("Number of strings meeting the criteria:", count_strings(sample_list))

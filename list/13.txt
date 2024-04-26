@@ -1,0 +1,8 @@
+dim1 = 3
+dim2 = 4
+dim3 = 6
+array_3d = [[['*' for _ in range(dim3)] for _ in range(dim2)] for _ in range(dim1)]
+for i in range(dim1):
+    for j in range(dim2):
+        print(' '.join(array_3d[i][j]))
+    print()

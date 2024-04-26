@@ -1,0 +1,5 @@
+def find_numbers():
+    numbers = [num for num in range(1500, 2701) if num % 7 == 0 and num % 5 == 0]
+    return numbers
+result = find_numbers()
+print("Numbers / 7 * 5, 1500 <=> 2700:", result)

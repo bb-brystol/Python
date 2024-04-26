@@ -1,0 +1,6 @@
+def even_digit_numbers():
+    result = [str(num) for num in range(100, 401) if all(int(digit) % 2 == 0 for digit in str(num))]
+    return ', '.join(result)
+
+output = even_digit_numbers()
+print("Numbers with even digits between 100 and 400:", output)

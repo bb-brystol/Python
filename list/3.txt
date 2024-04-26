@@ -1,0 +1,5 @@
+def get_largest_number(input_list):
+    return max(input_list)
+my_list = [10, 25, 6, 48, 32, 15]
+print("List:", my_list)
+print("Largest number:", get_largest_number(my_list))

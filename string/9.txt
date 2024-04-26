@@ -1,0 +1,9 @@
+def remove_nth_character(string, n):
+    if len(string) <= n:
+        return string
+    else:
+        return string[:n] + string[n+1:]
+
+input_string = input("Enter a string: ")
+index = int(input("Enter the index of the character to remove: "))
+print("Result:", remove_nth_character(input_string, index))

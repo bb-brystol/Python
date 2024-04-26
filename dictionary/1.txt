@@ -1,0 +1,10 @@
+def sort_dict_by_value(input_dict, ascending=True):
+    sorted_items = sorted(input_dict.items(), key=lambda x: x[1], reverse=not ascending)
+    sorted_dict = dict(sorted_items)
+    return sorted_dict
+sample_dict = {3: 30, 1: 10, 4: 40, 2: 20}
+print("Original dictionary:", sample_dict)
+sorted_dict_asc = sort_dict_by_value(sample_dict)
+print("Sorted dictionary (ascending):", sorted_dict_asc)
+sorted_dict_desc = sort_dict_by_value(sample_dict, ascending=False)
+print("Sorted dictionary (descending):", sorted_dict_desc)

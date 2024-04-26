@@ -1,0 +1,7 @@
+def distinct_sorted_words(sequence):
+    words = sequence.split(', ')
+    distinct_words = sorted(set(words))
+    return ', '.join(distinct_words)
+
+input_sequence = input("Enter a comma-separated sequence of words: ")
+print("Distinct words in sorted form:", distinct_sorted_words(input_sequence))

@@ -1,0 +1,8 @@
+def multiply_items(input_dict):
+    result = 1
+    for value in input_dict.values():
+        result *= value
+    return result
+sample_dict = {'a': 1, 'b': 2, 'c': 3}
+result = multiply_items(sample_dict)
+print("Result of multiplying all items in the dictionary:", result)

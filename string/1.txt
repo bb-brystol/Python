@@ -1,0 +1,8 @@
+def calculate_length(string):
+    length = 0
+    for _ in string:
+        length += 1
+    return length
+
+input_string = input("")
+print(calculate_length(input_string))

@@ -1,0 +1,6 @@
+def generate_squared_dict(n):
+    return {i: i**2 for i in range(1, n+1)}
+n = 5
+sample_dict = generate_squared_dict(n)
+print("Sample Dictionary (n = {}):".format(n))
+print(sample_dict)

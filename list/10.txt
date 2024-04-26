@@ -1,0 +1,7 @@
+def find_long_words(words, n):
+    return [word for word in words if len(word) > n]
+
+word_list = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'pineapple']
+n = 5
+long_words = find_long_words(word_list, n)
+print("Words longer than", n, "characters:", long_words)

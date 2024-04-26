@@ -1,0 +1,10 @@
+def fibonacci_series(limit):
+    fibonacci = [0, 1]
+    while True:
+        next_fib = fibonacci[-1] + fibonacci[-2]
+        if next_fib > limit:
+            break
+        fibonacci.append(next_fib)
+    return fibonacci
+fib_series = fibonacci_series(50)
+print("Fibonacci series between 0 and 50:", fib_series)

@@ -1,0 +1,8 @@
+def print_lower_lines():
+    print("Enter lines (terminate with a blank line):")
+    while True:
+        line = input()
+        if not line:
+            break
+        print(line.lower())
+print_lower_lines()

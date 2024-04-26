@@ -1,0 +1,5 @@
+# Create the dictionary using a dictionary comprehension
+sample_dict = {i: i**2 for i in range(1, 16)}
+
+print("Sample Dictionary:")
+print(sample_dict)

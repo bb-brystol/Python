@@ -1,0 +1,8 @@
+class MyClass:
+    def __init__(self, a, b, c):
+        self.a = a
+        self.b = b
+        self.c = c
+my_object = MyClass(1, 2, 3)
+object_dict = vars(my_object)
+print("Dictionary from object's fields:", object_dict)

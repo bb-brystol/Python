@@ -1,0 +1,5 @@
+def sum_list(input_list):
+    return sum(input_list)
+my_list = [10, 25, 6, 48, 32, 15]
+print("List:", my_list)
+print("Sum of all items:", sum_list(my_list))

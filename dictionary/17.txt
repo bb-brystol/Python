@@ -1,0 +1,5 @@
+def remove_duplicates_from_dict(input_dict):
+    return dict((k, v) for k, v in input_dict.items())
+sample_dict = {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}
+print("Original dictionary:", sample_dict)
+print("Dictionary after removing duplicates:", remove_duplicates_from_dict(sample_dict))

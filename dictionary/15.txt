@@ -1,0 +1,8 @@
+def get_max_min_values(input_dict):
+    max_value = max(input_dict.values())
+    min_value = min(input_dict.values())
+    return max_value, min_value
+sample_dict = {'a': 10, 'b': 20, 'c': 5, 'd': 30}
+max_value, min_value = get_max_min_values(sample_dict)
+print("Maximum value:", max_value)
+print("Minimum value:", min_value)

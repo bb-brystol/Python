@@ -1,0 +1,8 @@
+def sum_items(input_dict):
+    result = 0
+    for value in input_dict.values():
+        result += value
+    return result
+sample_dict = {'a': 1, 'b': 2, 'c': 3}
+result = sum_items(sample_dict)
+print("Sum of all items in the dictionary:", result)

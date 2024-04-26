@@ -1,0 +1,8 @@
+def first_and_last_two(string):
+    if len(string) < 2:
+        return ''
+    else:
+        return string[:2] + string[-2:]
+
+input_string = input("Enter string")
+print(first_and_last_two(input_string))

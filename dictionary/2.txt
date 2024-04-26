@@ -1,0 +1,6 @@
+def add_key(input_dict, key, value):
+    input_dict[key] = value
+sample_dict = {0: 10, 1: 20}
+print("Original dictionary:", sample_dict)
+add_key(sample_dict, 2, 30)
+print("Updated dictionary:", sample_dict)

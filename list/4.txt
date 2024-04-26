@@ -1,0 +1,5 @@
+def get_smallest_number(input_list):
+    return min(input_list)
+my_list = [10, 25, 6, 48, 32, 15]
+print("List:", my_list)
+print("Smallest number:", get_smallest_number(my_list))

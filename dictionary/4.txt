@@ -1,0 +1,6 @@
+def key_exists(input_dict, key):
+    return key in input_dict
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("Dictionary:", my_dict)
+print("Is 'b' in the dictionary?", key_exists(my_dict, 'b'))
+print("Is 'd' in the dictionary?", key_exists(my_dict, 'd'))

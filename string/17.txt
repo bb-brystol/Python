@@ -1,0 +1,7 @@
+def insert_end(string):
+    if len(string) < 2:
+        return "String minimum 2."
+    else:
+        return string[-2:] * 4
+print(insert_end('Python'))
+print(insert_end('Exercises'))

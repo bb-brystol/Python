@@ -1,0 +1,9 @@
+def generate_square_numbers(start, end):
+    square_numbers = []
+    for num in range(start, end + 1):
+        if num ** 0.5 == int(num ** 0.5):
+            square_numbers.append(num)
+    return square_numbers
+square_numbers = generate_square_numbers(1, 30)
+print("First 5 square numbers:", square_numbers[:5])
+print("Last 5 square numbers:", square_numbers[-5:])

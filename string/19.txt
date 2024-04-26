@@ -1,0 +1,9 @@
+def get_last_part(string, char):
+    return string.rsplit(char, 1)[0]
+
+url1 = "https://www.w3resource.com/python-exercises/string"
+url2 = "https://www.w3resource.com/python"
+specified_char = '/'
+
+print(get_last_part(url1, specified_char))
+print(get_last_part(url2, specified_char))

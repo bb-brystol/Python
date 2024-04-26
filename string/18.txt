@@ -1,0 +1,7 @@
+def first_three(string):
+    if len(string) < 3:
+        return string
+    else:
+        return string[:3]
+print(first_three('ipy'))
+print(first_three('python'))

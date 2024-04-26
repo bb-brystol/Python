@@ -1,0 +1,7 @@
+def remove_elements(input_list, indices):
+    return [input_list[i] for i in range(len(input_list)) if i not in indices]
+sample_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+indices_to_remove = [0, 4, 5]
+result = remove_elements(sample_list, indices_to_remove)
+print("Original list:", sample_list)
+print("List after removal:", result)

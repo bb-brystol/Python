@@ -1,0 +1,10 @@
+def remove_key(input_dict, key):
+    if key in input_dict:
+        del input_dict[key]
+        print("Key '{}' removed from dictionary.".format(key))
+    else:
+        print("Key '{}' not found in dictionary.".format(key))
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("Original dictionary:", my_dict)
+remove_key(my_dict, 'b')
+print("Dictionary after removal:", my_dict)
